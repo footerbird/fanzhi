@@ -1,0 +1,2 @@
+# fanzhi
+fanzhi init
