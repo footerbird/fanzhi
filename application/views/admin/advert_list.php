@@ -23,8 +23,8 @@
           <div class="breadcrumb-env">
           
             <ol class="breadcrumb bc-1">
-              <li><a href="<?php echo base_url(); ?>/admin"><i class="fa-home"></i>首页</a></li>
-              <li><a href="<?php echo base_url(); ?>/admin">广告管理</a></li>
+              <li><a href="<?php echo base_url(); ?>admin"><i class="fa-home"></i>首页</a></li>
+              <li><a href="<?php echo base_url(); ?>admin">广告管理</a></li>
               <li class="active"><strong>广告列表</strong></li>
             </ol>
                 
@@ -43,7 +43,7 @@
                 
                 <div class="row">
                   <div class="col-xs-12">
-                      <a href="<?php echo base_url(); ?>/admin/advert_update" class="btn btn-secondary btn-sm fl-r ml20">添加广告</a>
+                      <a href="<?php echo base_url(); ?>admin/advert_update" class="btn btn-secondary btn-sm fl-r ml20">添加广告</a>
                   </div>
                 </div>
                 
@@ -69,7 +69,7 @@
                         <td><?php echo ($advert->ad_status == 1)?'正常':'<span style="color:#f00;">未激活</span>'; ?></td>
                         <td><?php echo $advert->create_time; ?></td>
                         <td>
-                            <a href="<?php echo base_url(); ?>/admin/advert_update?ad_id=<?php echo $advert->ad_id; ?>" class="btn btn-orange btn-sm btn-icon icon-left">查看</a>
+                            <a href="<?php echo base_url(); ?>admin/advert_update?ad_id=<?php echo $advert->ad_id; ?>" class="btn btn-orange btn-sm btn-icon icon-left">查看</a>
                             <a href="javascript:;" onclick="advert_del(<?php echo $advert->ad_id; ?>)" class="btn btn-danger btn-sm btn-icon icon-left">删除</a>
                         </td>
                     </tr>

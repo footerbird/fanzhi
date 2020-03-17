@@ -9,11 +9,11 @@
       
       <!-- logo -->
       <div class="logo">
-        <a href="<?php echo base_url(); ?>/admin" class="logo-expanded">
+        <a href="<?php echo base_url(); ?>admin" class="logo-expanded">
           <img src="/htdocs/admin/images/logo@2x.png?<?php echo CACHE_TIME; ?>" width="80" alt="" />
         </a>
         
-        <a href="<?php echo base_url(); ?>/admin" class="logo-collapsed">
+        <a href="<?php echo base_url(); ?>admin" class="logo-collapsed">
           <img src="/htdocs/admin/images/logo-collapsed@2x.png?<?php echo CACHE_TIME; ?>" width="40" alt="" />
         </a>
       </div>
@@ -34,7 +34,7 @@
       <!-- class "auto-inherit-active-class" will automatically add "active" class for parent elements who are marked already with class "active" -->
       
       <li class="active">
-        <a href="<?php echo base_url(); ?>/admin">
+        <a href="<?php echo base_url(); ?>admin">
           <i class="linecons-star"></i>
           <span class="title">广告管理</span>
         </a>

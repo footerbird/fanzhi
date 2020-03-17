@@ -23,8 +23,8 @@
           <div class="breadcrumb-env">
           
             <ol class="breadcrumb bc-1">
-              <li><a href="<?php echo base_url(); ?>/admin"><i class="fa-home"></i>首页</a></li>
-              <li><a href="<?php echo base_url(); ?>/admin">广告管理</a></li>
+              <li><a href="<?php echo base_url(); ?>admin"><i class="fa-home"></i>首页</a></li>
+              <li><a href="<?php echo base_url(); ?>admin">广告管理</a></li>
               <li class="active"><strong>广告编辑</strong></li>
             </ol>
                 
