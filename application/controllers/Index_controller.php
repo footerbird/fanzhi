@@ -14,7 +14,7 @@ class Index_controller extends CI_Controller {
         //加载广告模型类
         $this->load->model('mobile/Advert_model','advert');
         //get_advertList方法得到广告列表
-        $advert_list = $this->advert->get_advertList(0,10);
+        $advert_list = $this->advert->get_advertList(0,5);
         $data['advert_list'] = $advert_list;
         
         $seo = array(

@@ -8,7 +8,7 @@
     <body style="background-color: #1b1b1f;">
     <div class="header"></div>
     <div class="container" style="overflow: hidden;">
-        <input type="hidden" id="advert_page" value="10" />
+        <input type="hidden" id="advert_page" value="5" />
         <div class="swiper-container advert-swiper" id="advert_container">
 
             <div class="swiper-wrapper">
